@@ -1,0 +1,18 @@
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-control{
+	width: 7% !important;
+}
+
+/* NAV */
+
+/* FOOTER */
+#footer-personalizado{
+	background-color: black;
+	color: white;
+}
