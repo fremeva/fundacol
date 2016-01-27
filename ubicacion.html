@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Inicio - Fundacol</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/theme-style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<style>
+
+	</style>
+</head>
+<body>
+  <ul id="about_dropdown" class="dropdown-content dropdown">
+		<li><a href="#!" class="black-text">Misión, Visión</a></li>
+  <li><a href="<?php bloginfo('template_directory'); ?>/page/about.php" class="black-text">Razón de ser</a></li>
+  <li><a href="#!" class="black-text">Fundadores</a></li>
+  <li><a href="#!" class="black-text">Principios</a></li>
+<li><a href="#!" class="black-text">Principios</a></li>
+		<li><a href="#!" class="black-text">Beneficiarios</a></li>
+</ul>
+	<ul id="about_dropdown_side_nav" class="dropdown-content dropdown">
+		<li><a href="#!" class="black-text">Misión, Visión</a></li>
+  <li><a href="#!" class="black-text">Razón de ser</a></li>
+  <li><a href="#!" class="black-text">Fundadores</a></li>
+  <li><a href="#!" class="black-text">Principios</a></li>
+<li><a href="#!" class="black-text">Principios</a></li>
+		<li><a href="#!" class="black-text">Beneficiarios</a></li>
+</ul>
+
+
+
+
+  <nav class="white black-text" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">FUNDACOL</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Inicio</a></li>
+		  <li><a class="dropdown-button" href="#!" data-activates="dropdownn">Sobre nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
+		<li><a class="dropdown-button" href="#!" data-activates="dropdown">Temas de Trabajo<i class="material-icons right">arrow_drop_down</i></a></li>
+		  <ul class="dropdown-content dropdown">
+		<li><a href="#!" class="black-text">Temas principales</a></li>
+  <li><a href="#!" class="black-text">Temas secundarios</a></li>
+		  </ul>
+		<li><a href="#">Ubicación</a></li>
+		<li><a href="#">Galería</a></li>
+		<li><a href="#">Contáctenos</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Inicio</a></li>
+		<li><a class="dropdown-button" href="#!" data-activates="dropdown">Sobre nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
+		  <li><a class="dropdown-button" href="#!" data-activates="temas_dropdown_side_nav">Temas de Trabajo<i class="material-icons right">arrow_drop_down</i></a></li>
+		<li><a href="#">Ubicación</a></li>
+		<li><a href="#">Galería</a></li>
+		<li><a href="#">Contáctenos</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+	<div id="container"></div>
+
+	<footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Fundación Colombia con Afecto-Conocimiento y acción</h5>
+          <p class="grey-text text-lighten-4 descripction-site">
+			  Trabajamos para la construcción del país que todos anhelamos, para la concreción de estados sostenibles de paz, igualdad y justicia en nuestra nación, conllevando al desarrollo humano integral, sostenible y democrático de nuestro pueblo.
+		  </p>
+
+
+        </div>
+		  <div class="col l3 s12">
+          <h5 class="white-text">Siguenos</h5>
+			  <di class="social-nav-links">
+				  <ul>
+					<li><a class="white-text" href="#!"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+					<li><a class="white-text" href="#!"><i class="fa fa-twitter fa-2x"></i></a></li>
+					<li><a class="white-text" href="#!"><i class="fa fa-youtube fa-2x"></i></a></li>
+				  </ul>
+			  </di>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contáctenos</h5>
+			<ul>
+				<li class="grey-text text-lighten-4">Transv. 9 No. 55-97 Of- 405 Edificio Vima Chapinero</li>
+				<li class="grey-text text-lighten-4">(57) 3112600860</li>
+				<li class="grey-text text-lighten-4">(57-1) 2126202</li>
+				<li class="grey-text text-lighten-4">Bogotá - Colombia</li>
+			</ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2016 - 2017 Fredy Mendoza Vargas, All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/mapdata/countries/co/co-all.js"></script>
+	<script type="text/javascript">
+		$(function () {
+
+    // Prepare demo data
+    var data = [
+        {
+            "hc-key": "co-ca",
+            "value": 1
+        },
+        {
+            "hc-key": "co-ch",
+            "value": 3
+        },
+        {
+            "hc-key": "co-to",
+            "value": 5
+        },
+        {
+            "hc-key": "co-cq",
+            "value": 6
+        },
+        {
+            "hc-key": "co-pu",
+            "value": 8
+        },
+        {
+            "hc-key": "co-vc",
+            "value": 11
+        },
+        {
+            "hc-key": "co-ce",
+            "value": 14
+        },
+        {
+            "hc-key": "co-lg",
+            "value": 15
+        },
+        {
+            "hc-key": "co-an",
+            "value": 24
+        },
+        {
+            "hc-key": "co-st",
+            "value": 27
+        },
+        {
+            "hc-key": "co-cu",
+            "value": 29
+        }
+    ];
+
+    // Initiate the chart
+    $('#container').highcharts('Map', {
+		chart: {
+            spacingBottom: 60
+        },
+
+        title : {
+            text : 'Nuestra Ubicación'
+        },
+        subtitle : {
+            text : 'Republica de Colombia.'
+        },
+
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
+        },
+
+        colorAxis: {
+             min: 5
+        },
+
+        series : [{
+            data : data,
+            mapData: Highcharts.maps['countries/co/co-all'],
+            joinBy: 'hc-key',
+            name: 'Ubicados aqui.',
+            states: {
+                hover: {
+                    color: '#fff176'
+                }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}'
+            }
+        }]
+    });
+});
+	</script>
+
+  </body>
+</html>
